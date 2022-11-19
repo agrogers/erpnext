@@ -96,6 +96,11 @@
    "print": 1,
    "read": 1,
    "report": 1,
+   "create": 1,
+   "delete": 1,
+   "import": 1,
+   "share": 1,
+   "write": 1,
    "role": "Auditor"
   },
   {
@@ -104,6 +109,11 @@
    "print": 1,
    "read": 1,
    "report": 1,
+   "create": 1,
+   "delete": 1,
+   "import": 1,
+   "share": 1,
+   "write": 1,
    "role": "Accounts Manager"
   },
   {
@@ -112,6 +122,11 @@
    "print": 1,
    "read": 1,
    "report": 1,
+   "create": 1,
+   "delete": 1,
+   "import": 1,
+   "share": 1,
+   "write": 1,
    "role": "Accounts User"
   }
  ],
