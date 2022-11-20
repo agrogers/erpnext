@@ -84,7 +84,7 @@
    "options": "invoice_type"
   }
  ],
- "in_create": 1,
+ "in_create": 0,
  "modified": "2020-01-30 17:27:55.964242",
  "modified_by": "Administrator",
  "module": "Accounts",
