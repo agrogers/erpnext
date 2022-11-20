@@ -1,5 +1,6 @@
 {
  "creation": "2018-01-23 05:40:18.117583",
+ "autoname": "LPE-ADJ-.#####",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -88,8 +89,24 @@
  "modified_by": "Administrator",
  "module": "Accounts",
  "name": "Loyalty Point Entry",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
+{
+    "amend": 1,
+    "cancel": 1,
+    "create": 1,
+    "delete": 1,
+    "email": 1,
+    "export": 1,
+    "print": 1,
+    "read": 1,
+    "report": 1,
+    "role": "System Manager",
+    "share": 1,
+    "submit": 1,
+    "write": 1
+    },
   {
    "email": 1,
    "export": 1,
