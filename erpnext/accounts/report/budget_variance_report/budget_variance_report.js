@@ -72,6 +72,12 @@ frappe.query_reports["Budget Variance Report"] = {
 			default: 0,
 		},
 	],
+	onload: function(report) {
+		report.page.add_inner_button(__("Budget Setup..."), function() {
+			frappe.msgprint("Test");
+			frappe.set_route('List', "Budget", "")
+		});
+	}, 
 	"formatter": function (value, row, column, data, default_formatter) {
 		value = default_formatter(value, row, column, data);
 
